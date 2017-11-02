@@ -26,18 +26,18 @@ p {
 }
 p a {
   /* text-decoration: underline */
-  color: #cf0000;
+  color: #008AFF;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
-  color: #cf0000;
+  color: #008AFF;
 }
 a:hover,
 a:focus {
-  color: #cf0000;
+  color: #0085a1;
 }
 blockquote {
   color: #808080;
@@ -75,12 +75,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #cf0000;
+  background: #0085a1;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #cf0000;
+  background: #0085a1;
 }
 img::selection {
   color: white;
@@ -136,7 +136,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #cf0000;
+  color: #0085a1;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -343,7 +343,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #cf0000;
+  color: #0085a1;
 }
 
 .post-preview .post-title {
@@ -407,14 +407,14 @@ footer .theme-by {
 }
 
 .blog-tags a {
-  color: #cf0000;
+  color: #008AFF;
   text-decoration: none;
   padding: 0px 5px;
 }
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #cf0000;
+  color: #008AFF;
   background-color: #CCC;
 }
 
@@ -620,8 +620,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #cf0000;
-  border: 1px solid #cf0000;
+  background: #0085a1;
+  border: 1px solid #0085a1;
 }
 
 .pager {
