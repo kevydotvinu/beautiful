@@ -3,6 +3,7 @@ title: VIM Tricks
 subtitle: Tricks which apart from usual-googled-results
 show-avatar: false
 image: /img/vim.png
+tags: [Terminal, Commands]
 ---
 
 Vim is a greatly improved version of the good old UNIX editor Vi. As we all need and core reason behind the choice of Linux OS is the customization. Isn't it? So is Vim. You may find common Vim tricks just by typing some keywords in the Google. Excluding that, here, I do have handful of some other.  
