@@ -1,6 +1,6 @@
 ---
 title: Pandoc - Simple Text to PDF Conversion
-subtitle: Think about converting simple text file to mail-ready PDF document.
+subtitle: Think about converting a simple text-file to mail-ready PDF document
 show-avatar: false
 tags: [Tools, Commands]
 image: /img/pandoc.png
