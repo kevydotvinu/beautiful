@@ -1,6 +1,6 @@
 ---
 title: VIM Tricks
-subtitle: Tricks which apart usual googled-results
+subtitle: Tricks which apart from usual-googled-results
 show-avatar: false
 image: /img/vim.png
 ---
