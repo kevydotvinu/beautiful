@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fancy Terminal
-subtitle: Movie-like terminal to get people attention
+subtitle: Movie-like terminal to get people's attention
 image: /img/terminal.svg
 show-avatar: false
 tags: [Commandline]
