@@ -1,7 +1,7 @@
 ---
 title: VIM Tricks
 subtitle: Tricks which apart from usual-googled-results
-show-avatar: false
+share-img: /img/vim.png
 image: /img/vim.png
 tags: [Terminal, Commands]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Install GRUB On USB Drive
 subtitle: Boot-up any computer with a single USB drive
-show-avatar: false
+share-img: /img/usb.jpg
 image: /img/usb.jpg
 tags: [Command-line]
 ---
