@@ -4,6 +4,7 @@ title: Install GRUB On USB Drive
 subtitle: Boot-up any computer with a single USB drive
 show-avatar: false
 image: /img/usb.jpg
+tags: [Commandline]
 ---
 If we are having GRUB installed on our USB drive, live CD booting will be easier from ISO files. Here assuming ``/dev/sda1`` is your device.
 
