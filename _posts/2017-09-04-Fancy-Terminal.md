@@ -1,5 +1,10 @@
 ---
+layout: post
 title: Fancy Terminal
+subtitle: Movie-like terminal to get people attention
+image: /img/terminal.svg
+show-avatar: false
+tags: [Commandline]
 ---
 All Hacker's movies have one thing in common which attract us the most is computer terminal that feeds continuous text. Here, I have a simple script that resembles those fancies a very little.
 {%highlight bash linenos%}
