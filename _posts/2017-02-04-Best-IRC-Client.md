@@ -1,5 +1,10 @@
 ---
+layout: post
 title: Best IRC Client
+subtitle: Command-line-interface tool
+image: /img/chat.png
+share-img: /img/chat.png
+tags: [Command-line]
 ---
 In your Linux run you must have found situations in which you need a other hand help. I have come across such times. However, we would normally end up in community sites and forums where we may or may not find solutions. Here, I'm going to share my personal experience.  
 Last time, I had trouble installing Ubuntu from minimal CD and PPPoE connection (ADSL). As always, Ubuntu wiki pages had cleared out my doubts, not solved though. It turned out, I happened to know about irc which works from terminal itself and makes communication possible with peers. IRSSI, a irc client which satisfied my needs.  

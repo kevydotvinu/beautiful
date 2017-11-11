@@ -1,5 +1,9 @@
 ---
+layout: post
 title: Useful Tiny Bash Functions
+subtitle: Very useful if you are a die-hard CLI user
+image: /img/script.png
+share-img: /img/script.png
 ---
 Super nerd people spend most of their time in CLI. As long as we use terminal for our needs, we can also unlock new features from it by appending some codes in `bashrc` file. Here are some examples which we can use.  
 &nbsp;
