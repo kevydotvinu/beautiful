@@ -3,7 +3,7 @@ layout: post
 title: SSH Connection Over Internet Without Static IP
 subtitle: Perfect choice for IoT projects
 tags: [Debian]
-show-avatar: false
+share-img: /img/ssh.jpg
 image: /img/ssh.jpg
 ---
 
