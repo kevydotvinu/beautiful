@@ -19,10 +19,10 @@ I have been using Ubuntu as my base machine for the past some years. Things have
 
 > sudo vim /etc/dnsmasq.conf
 
-{% highlight bash linenos %}
+```bash
 interface=wlan0
 dhcp-range=10.0.0.2,10.0.0.14,12h
-{% endhighlight %}
+```
 
 ### Hostapd
 
@@ -30,13 +30,13 @@ dhcp-range=10.0.0.2,10.0.0.14,12h
 
 > sudo vim /etc/default/hostapd.conf
 
-{% highlight bash linenos %}
+```bash
 DAEMON_CONF="/etc/hostapd/hostapd.conf"
-{% endhighlight %}
+```
 
 > sudo nano /etc/hostapd/hostapd.conf
 
-{% highlight bash linenos%}
+```bash
 auth_algs=1
 beacon_int=50
 channel=3
@@ -55,13 +55,13 @@ wmm_enabled=1
 wpa=2
 wpa_key_mgmt=WPA-PSK
 wpa_passphrase=YOURPASSPHASE
-{%endhighlight%}
+```
 
 ### IPtables
 
 >sudo nano /etc/rc.local
 
-{%highlight bash linenos%}
+```bash
 iptables -t nat -A POSTROUTING \
 -o wlan1 -j MASQUERADE
 iptables -A FORWARD -m conntrack \
@@ -69,22 +69,22 @@ iptables -A FORWARD -m conntrack \
 iptables -A FORWARD \
 -i wlan0 -o wlan1 -j ACCEPT
 exit 0
-{%endhighlight%}
+```
 
 ### Switch Linux as router
 
 > sudo nano /etc/sysctl.conf
 
-{%highlight bash linenos%}
+```bash
 net.ipv4.ip_forward=1
 net.ipv6.conf.all.forwarding=1
-{%endhighlight%}
+```
 
 ### Configure Network
 
 > sudo nano /etc/network/interfaces
 
-{%highlight bash linenos%}
+```bash
 auto lo wlan0
 iface lo inet loopback
 #access point
@@ -94,12 +94,12 @@ netmask 255.255.255.240
 gateway 10.0.0.1
 dns-nameservers 192.168.1.1
 wireless-mode Master
-{%endhighlight%}
+```
 
 > sudo nano /etc/NetworkManager/NetworkManager.conf
 
-{%highlight bash linenos%}
+```bash
 [keyfile]
 unmanaged-devices=mac:XX:XX:XX:XX:XX:XX
-{%endhighlight%}
+```
 

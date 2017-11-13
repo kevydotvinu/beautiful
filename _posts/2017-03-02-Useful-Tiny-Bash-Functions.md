@@ -9,13 +9,14 @@ Super nerd people spend most of their time in CLI. As long as we use terminal fo
 &nbsp;
 
 **History auto-completion (type `sudo` and press up-arrow key, history includes `sudo` will come up)**
-{%highlight bash linenos%}
+
+```bash
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
-{%endhighlight%}
+```
 
 **Countdown timer**
-{%highlight bash linenos%}
+```bash
 function countdown(){
   date1=$((`date +%s` + $1)); 
   while [ "$date1" -ne `date +%s` ];
@@ -23,10 +24,10 @@ function countdown(){
     sleep 0.1
   done
 }
-{%endhighlight%}
+```
 
 **Stopwatch**
-{%highlight bash linenos%}
+```bash
 function stopwatch(){
   date1=`date +%s`; 
   while true; 
@@ -34,10 +35,10 @@ function stopwatch(){
     sleep 0.1
   done
 }
-{%endhighlight%}
+```
 
 **Alarm**
-{%highlight bash linenos%}
+```bash
 alarm() {
 sleep $1; 
 while :; 
@@ -48,10 +49,10 @@ while :;
   fi; 
   done
 }
-{%endhighlight%}
+```
 
 **Random commands from commandlinefu.com**
-{%highlight bash linenos%}
+```bash
 cfu () { 
   wget -qO - http://www.commandlinefu.com/commands/random/plaintext | \
   sed -n '/AD/!p' | sed -n '/commandlinefu.com/!p' | tee ~/.cfu; 
@@ -60,4 +61,4 @@ cfu () {
     cat ~/.cfu >> ~/Useful_Commands;
   fi
 }
-{%endhighlight%}
+```

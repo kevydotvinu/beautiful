@@ -16,10 +16,10 @@ This is one of our favorite. As the name suggests, tmux has something to do with
 + vim-clipboard-copy  
 We all are familiar with `y` for copy and `p` for paste, but this features limited inside the Vim. Simply install `vim-gtk` package to get this feature out of the Vim. After the installation, press `"+y` to copy contents to clipboard directly. If in case you do not know just open a new terminal window and run these two commands, entering your password when prompted:
 
-{%highlight bash linenos%}
+```bash
 sudo apt-get update
 sudo apt-get install vim-gtk
-{%endhighlight%}
+```
 
 + vim-color-scheme  
 Specific color pattern is very significant for script writers. It gives quick idea of content in the first glimpse. Although bunch of color schemes are readly available in Github repository, It is hard to go not mentioning [this](https://github.com/jacoborus/tender.vim) one.
