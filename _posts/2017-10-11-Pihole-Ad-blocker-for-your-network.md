@@ -24,7 +24,6 @@ As we all know, common ad-blocker application will do the job in some extent but
 We could also install Pi-hole in our personal laptop/desktop if you don't want any dedicated device for the same. 
 
 Pi-hole provides information-rich web interface which through we could keep track of the stats and change settings. We can find it at:
-
 http://your-ip/admin/index.php or http://pi-hole/admin
 
 If you are having a working Linux device, definitely you should give Pi-hole a try. 
