@@ -24,6 +24,7 @@ description: A typical Linux blog
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  CLI Tips: "clitips"
   Resources:
     - Scripts: "http://github.com/kevydotvinu/scripts/"
     - Conf Files: "http://github.com/kevydotvinu/dotfiles/"
@@ -66,7 +67,7 @@ author:
   stackoverflow: "367967/kevy"  # eg. "3943160/daattali"
   #snapchat: yourname  # eg. daattali
   #instagram: yourname # eg. daattali
-  youtube: linuxmate   # eg. user/daattali or channel/daattali
+  youtube: channel/UCI4pT-mOo-UX5IfGVRtOLlw # eg. user/daattali or channel/daattali
   #spotify: yourname   # eg. daattali
   #telephone: yourphone   # eg. +14159998888
   #steam: yourname     # eg. daattali
