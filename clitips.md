@@ -7,13 +7,13 @@ date: recently
 **Session portability**  
 Import elements from current session directly into a new local or remote session.
 ```bash
-sudo bash -c "(declare -p parameters; declare -f functions) command"
-ssh remote_host "(declare -p parameters; declare -f functions) command"
+ sudo bash -c "(declare -p parameters; declare -f functions) command"
+ ssh remote_host "(declare -p parameters; declare -f functions) command"
 ```
 **Find file with specific word in it**  
 Not that impressive but very useful when you are having bunch of new files to edit.
 ```bash
-grep -rn "word" file
+ grep -rn "word" file
 ```
 **Terminal shortcuts**
 
