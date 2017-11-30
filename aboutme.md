@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Me
+image: /img/avatar-icon.jpg
 ---
 
 ### About Me
