@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Me
+subtitle: Or get acquainted with me
 image: /img/avatar-icon.jpg
 css: /css/contact.css
 ---
