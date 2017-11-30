@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 image: /img/avatar-icon.jpg
+css: /css/contact.css
 ---
 
 ### About Me
@@ -13,7 +14,8 @@ This blog is not more than a typical Linux blog but here you can find some daily
 Apart from Linux, I watch Sherlock Homes BBC series as well as Christopher Nolan movies and read non-fiction. [I am not finished.](/more.md)
 
 <!--contactme form-->
-
+<div id="contactme-section">
+<h1 id="contact">Contact</h1>
 <form action="https://formspree.io/kevy.vinu@gmail.com" method="POST" class="form" id="contact-form">
   <p>You can also send me a quick message using the form below:</p>
   <div class="row">
