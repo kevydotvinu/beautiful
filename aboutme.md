@@ -21,7 +21,7 @@ Apart from Linux, I watch Sherlock Homes BBC series as well as Christopher Nolan
       <input type="email" name="_replyto" class="form-control input-lg" placeholder="Email" title="Your Email">
     </div>
     <div class="col-xs-6">
-      <input type="text" name="name" class="form-control input-lg" placeholder="Name" title="Name">
+      <input type="text" name="name" class="form-control input-lg" placeholder="Your Name" title="Name">
     </div>
   </div>
   <input type="hidden" name="_subject" value="New submission from linuxmate.ml">
