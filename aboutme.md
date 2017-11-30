@@ -18,7 +18,7 @@ Apart from Linux, I watch Sherlock Homes BBC series as well as Christopher Nolan
   <p>You can also send me a quick message using the form below:</p>
   <div class="row">
     <div class="col-xs-6">
-      <input type="email" name="_replyto" class="form-control input-lg" placeholder="Email" title="Email">
+      <input type="email" name="_replyto" class="form-control input-lg" placeholder="Email" title="Your Email">
     </div>
     <div class="col-xs-6">
       <input type="text" name="name" class="form-control input-lg" placeholder="Name" title="Name">
