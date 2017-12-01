@@ -1,6 +1,6 @@
 ---
 title: CLI tips
-layout: post
+layout: page
 subtitle: Page seems long but it will worth a try
 date: recently
 ---
