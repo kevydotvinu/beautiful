@@ -24,11 +24,11 @@ description: A typical Linux blog
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  CLI Tips: "clitips"
   Resources:
     - Scripts: "http://github.com/kevydotvinu/scripts/"
     - Conf Files: "http://github.com/kevydotvinu/dotfiles/"
     - Videos: "https://www.youtube.com/channel/UCI4pT-mOo-UX5IfGVRtOLlw"
+    - CLI Tips: "clitips"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
