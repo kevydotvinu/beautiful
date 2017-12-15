@@ -24,6 +24,7 @@ description: A typical Linux blog
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Portfolio: "portfolio"
   Resources:
     - Scripts: "http://github.com/kevydotvinu/scripts/"
     - Conf Files: "http://github.com/kevydotvinu/dotfiles/"
