@@ -1,20 +1,21 @@
 ---
 layout: page
-title: Portfolio
+title: Vinu K
+subtitle: "Avid fan of Linux and open-source enthusiast"
 css: /css/portfolio.css
-img:
+img: /img/portfolio.png
 ---
 
 <div id="portfolio-section">
 
 <p class="portfolio-text">
 <span class="fa fa-briefcase portfolio-icon"></span>
-Currently a <strong>Linux Support Engineer</strong>. Previously worked as an <strong>Electrical Engineer</strong> (then, why Linux? I had a vision, so to speak) in startup.
+I am currently a <strong>Linux Support Engineer</strong>. Previously, I worked as an <strong>Electrical Engineer</strong> (then, why Linux? I had a vision, so to speak) in startup.
 </p>
 
 <p class="portfolio-text">
 <span class="fa fa-graduation-cap portfolio-icon"></span>
-Obtained my Bachelor of technology in <strong>Electrical</strong> from the University of Kerala and <strong>Redhat Certifications</strong> from Mumbai.
+I obtained my Bachelor of technology in <strong>Electrical</strong> from the University of Kerala and <strong>Redhat Certifications</strong> from Mumbai.
 </p>
 
 <p class="portfolio-text">
