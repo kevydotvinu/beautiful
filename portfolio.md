@@ -10,7 +10,7 @@ img: /img/portfolio.png
 
 <p class="portfolio-text">
 <span class="fa fa-briefcase portfolio-icon"></span>
-I am currently a <strong>Linux Support Engineer</strong>. Previously, I worked as an <strong>Electrical Engineer</strong> (then, why Linux? I had a vision, so to speak) in startup.
+I am currently a <strong>Linux Support Engineer</strong>. Previously, I worked as an <strong>Electrical Engineer</strong> (then, why Linux? I had a vision, so to speak) in start-up.
 </p>
 
 <p class="portfolio-text">
