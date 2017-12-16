@@ -30,7 +30,7 @@ I do not usually miss any technical event or gathering. However, I have had the 
 
 <p class="portfolio-text">
 <span class="fa fa-puzzle-piece portfolio-icon"></span>
-I spend time on building DIY projects. Most of my projects are based on <a href="https://www.raspberrypi.org/"><strong>Raspberry Pi</strong></a>.
+I spend time on DIY projects. Most of my projects are based on <a href="https://www.raspberrypi.org/"><strong>Raspberry Pi</strong></a>.
 </p>
 
 </div>
