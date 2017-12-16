@@ -24,10 +24,10 @@ I enjoy writing <strong>useful & reusable bash scripts</strong> to make task eas
 
 <p class="portfolio-text">
 <span class="fa fa-users portfolio-icon"></span>
-I have had the good fortunate to be the part of: 
-* Oracle Bare Metal DBCS Sales Play Workshop - Mumbai 
-* Google Cloud Partner Summit - Mumbai 
-* AWS Technical Essentials Day - Mumbai 
+I have had the good fortunate to be the part of:  
+* Oracle Bare Metal DBCS Sales Play Workshop - Mumbai  
+* Google Cloud Partner Summit - Mumbai  
+* AWS Technical Essentials Day - Mumbai  
 </p>
 
 </div>
