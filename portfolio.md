@@ -9,7 +9,7 @@ img:
 
 <p class="portfolio-text">
 <span class="fa fa-briefcase portfolio-icon"></span>
-Currently a <strong>Linux Support Engineer</strong>. Previously worked as a <strong>Electrical Engineer</strong> (Reliance, Voltas) in startups.
+Currently a <strong>Linux Support Engineer</strong>. Previously worked as an <strong>Electrical Engineer</strong> (then, why Linux? I had a vision, so to speak) in startup.
 </p>
 
 <p class="portfolio-text">
@@ -24,10 +24,10 @@ I enjoy writing <strong>useful & reusable bash scripts</strong> to make task eas
 
 <p class="portfolio-text">
 <span class="fa fa-users portfolio-icon"></span>
-I have had the good fortunate to be the part of:  
-* Oracle Bare Metal DBCS Sales Play Workshop - Mumbai  
-* Google Cloud Partner Summit - Mumbai  
-* AWS Technical Essentials Day - Mumbai  
+I have had the good fortunate to be the part of:
+&nbsp; * Oracle Bare Metal DBCS Sales Play Workshop - Mumbai
+&nbsp; * Google Cloud Partner Summit - Mumbai
+&nbsp; * AWS Technical Essentials Day - Mumbai
 </p>
 
 </div>
