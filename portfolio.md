@@ -29,7 +29,7 @@ I do not usually miss any technical event or gathering. However, I have had the 
 </p>
 
 <p class="portfolio-text">
-<span class="fa fa-puzzle-piece portfolio-icon"></span>
+<span class="fa fa-paper-plane portfolio-icon"></span>
 I spend time on DIY projects. Most of my projects are based on <a href="https://www.raspberrypi.org/"><strong>Raspberry Pi</strong></a>.<br>Some of them are:<br><strong>AdBlocker Router</strong><br><strong>Smart TV Using Kodi</strong>
 </p>
 
