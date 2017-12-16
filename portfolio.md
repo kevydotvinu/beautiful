@@ -24,10 +24,7 @@ I enjoy writing <strong>useful & reusable bash scripts</strong> to make task eas
 
 <p class="portfolio-text">
 <span class="fa fa-users portfolio-icon"></span>
-I have had the good fortunate to be the part of:
-&nbsp; * Oracle Bare Metal DBCS Sales Play Workshop - Mumbai
-&nbsp; * Google Cloud Partner Summit - Mumbai
-&nbsp; * AWS Technical Essentials Day - Mumbai
+I have had the good fortunate to be the part of <strong>Oracle Bare Metal DBCS Sales Play Workshop - Mumbai</strong>, <strong>Google Cloud Partner Summit - Mumbai</strong>, <strong>AWS Technical Essentials Day - Mumbai</strong>.
 </p>
 
 </div>
