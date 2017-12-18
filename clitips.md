@@ -2,7 +2,6 @@
 title: CLI tips
 layout: page
 subtitle: Page seems long but it will worth a try
-date: recently
 ---
 **Session portability**  
 Import elements from current session directly into a new local or remote session.

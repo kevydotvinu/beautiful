@@ -1,6 +1,7 @@
 ---
 title: Docker - A brief introduction
 subtitle: Perfect tool for multi platform users
+description: How to use docker?
 image: /img/docker/docker.png
 share-img: /img/docker/docker.png
 tag: [application]
