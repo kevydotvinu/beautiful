@@ -3,7 +3,7 @@ layout: page
 title: Vinu K
 subtitle: "An avid fan of Linux and open-source enthusiast"
 css: /css/portfolio.css
-img: /img/portfolio.png
+image: /img/portfolio.png
 ---
 
 <div id="portfolio-section">
