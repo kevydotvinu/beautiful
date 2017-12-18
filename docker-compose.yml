@@ -1,7 +1,7 @@
 version: "2"
 services:
         jekyll:
-                image: jekyll:xenial
+                image: kevydotvinu/jekyll:xenial
                 container_name: jekyll
                 ports:
                         - "4000:4000"
