@@ -118,7 +118,7 @@ google_analytics: "UA-109052826-1"
 #gtm: ""
 
 # Facebook App ID
-# fb_app_id: ""
+fb_app_id: "2027932454120082"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
@@ -148,7 +148,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
