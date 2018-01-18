@@ -33,7 +33,7 @@ Apart from Linux, I watch Sherlock Homes BBC series as well as Christopher Nolan
 </form>
 
 <br>
-<form method="get" action="/kevy_public_key.gpg" id="contact-form">
+<form method="get" action="https://goo.gl/5w8ccu" id="contact-form">
 <p>If security is your primary concern, download my P/GPG key from here.</p>
 <button type="submit" class="btn btn-lg btn-primary">14D8 B939 7A8F 10DA 44B0  0FE3 B5CC F2B7 D917 627C</button>
 </form>
