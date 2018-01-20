@@ -67,6 +67,10 @@ layout: base
         {% endif %}
       </ul>
 
+      {% if page.fblike %}
+      	{% include fb-like-button.html %}
+      {% endif %}
+
       {% if page.comments %}
         <div class="disqus-comments">
           {% include disqus.html %}
