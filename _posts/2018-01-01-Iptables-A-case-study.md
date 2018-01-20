@@ -1,10 +1,14 @@
 ---
 layout: post
-title: Iptables - A case study
+title: Iptables - A simple use case
 subtitle: A very little knowledge of iptables can replace your expensive home router
+image: /img/iptables.png
+share-img: /img/iptables.png
 ---
 
 ### Introduction
+
+Iptables is a user-space utility program that allows a system administrator to configure the tables provided by the Linux kernel firewall (implemented as different Netfilter modules) and the chains and rules it stores.
 
 > "Iptables is a command line utility for configuring Linux kernel firewall implemented within the Netfilter project. The term iptables is also commonly used to refer to this kernel-level firewall. It can be configured directly with iptables, or by using one of the many frontends and GUIs. iptables is used for IPv4 and ip6tables is used for IPv6." says [ArchWiki](https://wiki.archlinux.org/index.php/iptables)
 
@@ -28,7 +32,7 @@ Any Linux-box is having two NIC (Network Interface Card) can be turn into a rout
 
      echo 1 > /proc/sys/net/ipv4/ipv4_forward
 
-For persistent changes, open `/etc/sysctl.conf` with your favorite editor and uncomment `net.ipv4.ip_forward=1`
+For persistent changes, open `/etc/sysctl.conf` and uncomment `net.ipv4.ip_forward=1`
 
 Now the second NIC can talk to internet without flaws. NAT is mainly divided into DNAT (Destination NAT) and SNAT (Source NAT). In simple, SNAT and MASQUERADE are for outside traffic routing while DNAT for inside one. Let us take one example here.
  
@@ -61,9 +65,9 @@ Let us take DNAT into account. Consider we require a ssh connection to Fedora ma
 
      sudo iptables -t nat -A PREROUTING -j DNAT -p tcp --dport 22 --destination 125.99.121.62 --to-destination 192.168.1.2
 
- * dport: port of Ubuntu machine  
- * destination: IP of Ubuntu machine  
- * to-destination: IP of Fedora machine  
+ * --dport: port of Ubuntu machine  
+ * --destination: IP of Ubuntu machine  
+ * --to-destination: IP of Fedora machine  
 
 ### Conclusion
-We have gone through very little possibilities of iptables here. This knowledge is more enough to turn your unused PC or inexpensive dedicated PC such as Raspberry Pi into a full functioning WiFi home router (consider second NIC as Wireless card in this case). I have been using DIY home router for the past some years. If you could find any doubts, do not hesitate to ask me in the comment box below.
+We have gone through very little possibilities of iptables here. This knowledge is more enough to turn your unused PC or inexpensive dedicated PC such as Raspberry Pi into a full functioning home router. I have been using DIY home router for the past some years. If you could find any doubts, do not hesitate to ask me in the comment box below.
