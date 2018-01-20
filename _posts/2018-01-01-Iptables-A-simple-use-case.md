@@ -24,7 +24,7 @@ After the successful installation, make sure the service is up and running. I us
 
 I have been using iptables on a regular basis in my Linux-box specially assigned for network routing jobs which is Ubuntu 16.04 LTS server edition. NAT (Network Address Translation) is the iptables's feature which I am more impressed with.
 
-"Network address translation (NAT) is a method of remapping one IP address space into another by modifying network address information in IP header of packets while they are in transit across a traffic routing device." says Wikipedia.
+> "Network address translation (NAT) is a method of remapping one IP address space into another by modifying network address information in IP header of packets while they are in transit across a traffic routing device." says Wikipedia.
 
 Any Linux-box is having two NIC (Network Interface Card) can be turn into a router with following command:
 
@@ -63,9 +63,9 @@ Let us take DNAT into account. Consider we require a ssh connection to Fedora ma
 
      sudo iptables -t nat -A PREROUTING -j DNAT -p tcp --dport 22 --destination 125.99.121.62 --to-destination 192.168.1.2
 
- * --dport: port of Ubuntu machine  
- * --destination: IP of Ubuntu machine  
- * --to-destination: IP of Fedora machine  
+ * dport: port of Ubuntu machine  
+ * destination: IP of Ubuntu machine  
+ * to-destination: IP of Fedora machine  
 
 ### Conclusion
 We have gone through very little possibilities of iptables here. This knowledge is more enough to turn your unused PC or inexpensive dedicated PC such as Raspberry Pi into a full functioning home router. I have been using DIY home router for the past some years. If you could find any doubts, do not hesitate to ask me in the comment box below.
