@@ -7,9 +7,7 @@ share-img: /img/iptables.png
 ---
 
 ### Introduction
-
 Iptables is a user-space utility program that allows a system administrator to configure the tables provided by the Linux kernel firewall (implemented as different Netfilter modules) and the chains and rules it stores.
-
 > "Iptables is a command line utility for configuring Linux kernel firewall implemented within the Netfilter project. The term iptables is also commonly used to refer to this kernel-level firewall. It can be configured directly with iptables, or by using one of the many frontends and GUIs. iptables is used for IPv4 and ip6tables is used for IPv6." says [ArchWiki](https://wiki.archlinux.org/index.php/iptables)
 
 ### Installation
