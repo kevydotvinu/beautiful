@@ -61,7 +61,7 @@ For commnad-line users:
   <link rel="stylesheet" type="text/css" href="/css/asciinema-player.css" />
 </head>
 <body>
-  <asciinema-player src="/cast/sftp.cast" speed="2" theme="tango" poster="data:text/plain,\e[5;5HAwesome \e[1;33mdemo!" cols="100" rows="22"></asciinema-player>
+  <asciinema-player src="/cast/sftp.cast" speed="2" theme="monokai" poster="data:text/plain,\e[5;5HAwesome \e[1;33mdemo!" cols="100" rows="22"></asciinema-player>
   <script src="/js/asciinema-player.js"></script>
 </body>
 </html>
