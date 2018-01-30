@@ -58,6 +58,8 @@ For commnad-line users:
 
 ![sftp-cli.png](/img/sftp-cli.png)
 
+<script src="https://asciinema.org/a/iI59RsMDvXT7ybgO3fkSVxl13.js" id="asciicast-iI59RsMDvXT7ybgO3fkSVxl13" async></script>
+
 ### Conclusion
 
 I believe this tutorial is complete enough to make your own SFTP server. If you have business rule such as number of files to share with public or private, SFTP will be a much appropriate way of choice as it is encrypted and simple to configure from scratch compare to conventional FTP server. When we start deploy something, it is normal to rise doubts even if the documentation gives enough information. In that case, please don't hesitate to ask in the comment box below.
