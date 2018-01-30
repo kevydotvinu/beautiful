@@ -56,8 +56,6 @@ For commnad-line users:
 
 ` sftp linuxmate@172.168.1.199`
 
-![sftp-cli.png](/img/sftp-cli.png)
-
 <script src="https://asciinema.org/a/iI59RsMDvXT7ybgO3fkSVxl13.js" id="asciicast-iI59RsMDvXT7ybgO3fkSVxl13" async></script>
 
 ### Conclusion
