@@ -56,7 +56,16 @@ For commnad-line users:
 
 ` sftp linuxmate@172.168.1.199`
 
-<script src="https://asciinema.org/a/iI59RsMDvXT7ybgO3fkSVxl13.js" id="asciicast-iI59RsMDvXT7ybgO3fkSVxl13" async></script>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/asciinema-player.css" />
+</head>
+<body>
+  <asciinema-player src="/cast/sftp.cast" cols="83" rows="22"></asciinema-player>
+  ...
+  <script src="/js/asciinema-player.js"></script>
+</body>
+</html>
 
 ### Conclusion
 
