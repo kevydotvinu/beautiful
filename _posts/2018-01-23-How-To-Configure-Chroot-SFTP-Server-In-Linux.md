@@ -62,7 +62,6 @@ For commnad-line users:
 </head>
 <body>
   <asciinema-player src="/cast/sftp.cast" cols="83" rows="22"></asciinema-player>
-  ...
   <script src="/js/asciinema-player.js"></script>
 </body>
 </html>
