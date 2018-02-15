@@ -15,13 +15,13 @@ Before starting deployment processes, we need to prepare the box accordingly. Th
 **Download and install the patches**  
 Patches consists of Grid infrastruction and RDBMS. After the successful download, copy the same to USB drive which should have filesystem type of FAT32 to avoid any mouting error. The ODA patch bundle number may change with release. Installation as follows:  
 ```
-unzip p23494985_xxxxxx_Linux-x86-64_1of2.zip
-unzip p23494985_xxxxxx_Linux-x86-64_2of2.zip
-cat p23494985_xxxxxx_Linux-x86-64_1of2.zippart p23494985_xxxxxx_Linux-x86-64_2of2.zippart > GI.zip
-update-image --image-files GI.zip
-
-unzip p23494992_xxxxxx_Linux-x86-64.zip
-update-image --image-files p23494992_xxxxxx_Linux-x86-64.zip
+ unzip p23494985_xxxxxx_Linux-x86-64_1of2.zip
+ unzip p23494985_xxxxxx_Linux-x86-64_2of2.zip
+ cat p23494985_xxxxxx_Linux-x86-64_1of2.zippart p23494985_xxxxxx_Linux-x86-64_2of2.zippart > GI.zip
+ update-image --image-files GI.zip
+ 
+ unzip p23494992_xxxxxx_Linux-x86-64.zip
+ update-image --image-files p23494992_xxxxxx_Linux-x86-64.zip
 ```
 
 **ILOM configuration**  
@@ -35,9 +35,9 @@ It consist of configuring how many core do you want to be enabled (Only needed i
 
 You are now ready to deply ODA. Using the chrome or IE browser, enter the following URL:  
 ```
-https://<ipaddress or hostname>:7093/mgmt/index.html  
-Username: oda-admin  
-Password (default): welcome1  
+ https://<ipaddress or hostname>:7093/mgmt/index.html  
+ Username: oda-admin  
+ Password (default): welcome1  
 ```
 The video demonstration of Oracle Database Appliance deployment gives the complete idea of deployment.  
 
