@@ -5,7 +5,6 @@ subtitle: A complete video demonstration
 image: /img/oracle.png
 share-img: /img/oracle.png
 tag: [Installation, Database] 
-s
 ---
 
 ### Intoduction
