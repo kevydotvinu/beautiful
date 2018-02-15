@@ -4,7 +4,7 @@ title: Oracle Database Appliance Deployment
 subtitle: A complete video demonstration
 image: /img/oracle.png
 share-img: /img/oracle.png
-tag: [Installation] 
+tag: [Installation, Database] 
 s
 ---
 
@@ -41,7 +41,7 @@ Username: oda-admin
 Password (default): welcome1  
 ```
 The video demonstration of Oracle Database Appliance deployment gives the complete idea of deployment.  
-<iframe width="100" height="60" src="https://www.youtube.com/watch?v=UADjefcdlo4" frameborder="0" allowfullscreen></iframe>
+<iframe width="100" height="60" src="https://www.youtube.com/watch?v=UADjefcdlo4" frameborder="0" allowfullscreen> </iframe>
 
 ### Factory Resetting
 > Cation: It will wipe out all your Oracle Database Appliance configuration
