@@ -49,8 +49,8 @@ In case of mistake, where reployment is needed, the previous configuration can b
 This will reboot the server.  
 After the reboot, you can confirm that the previous configuration has been erased:  
 ```
-# odacli describe-appliance  
-Appliance is not configured
+ # odacli describe-appliance  
+ Appliance is not configured
 ```
 
 ### Integrated with the Oracle Public Cloud
