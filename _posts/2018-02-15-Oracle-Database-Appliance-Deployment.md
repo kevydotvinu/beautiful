@@ -1,6 +1,11 @@
 ---
+layout: post
 title: "Oracle Database Appliance - Database Deployment"
 subtitle: "A complete video demonstration"
+image: /img/oracle.png
+share-img: /img/oracle.png
+tag: [Installation] 
+s
 ---
 
 ### Intoduction
