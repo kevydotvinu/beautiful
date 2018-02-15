@@ -40,7 +40,7 @@ You are now ready to deply ODA. Using the chrome or IE browser, enter the follow
  Password (default): welcome1  
 ```
 The video demonstration of Oracle Database Appliance deployment gives the complete idea of deployment.  
-<iframe src="https://www.youtube.com/watch?v=UADjefcdlo4" frameborder="0" allowfullscreen></iframe>
+{% youtube "https://www.youtube.com/watch?v=UADjefcdlo4" %}
 
 ### Factory Resetting
 > Cation: It will wipe out all your Oracle Database Appliance configuration
