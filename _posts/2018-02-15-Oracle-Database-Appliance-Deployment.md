@@ -14,7 +14,7 @@ Oracle Database Appliance or ODA is an Oracle Engineered System that is simple t
 Before starting deployment processes, we need to prepare the box accordingly. This post covers bare metal installation since virtualized platform not supported on the X6-2S. The preparation is as follows:  
 **Download and install the patches**  
 Patches consists of Grid infrastruction and RDBMS. After the successful download, copy the same to USB drive which should have filesystem type of FAT32 to avoid any mouting error. The ODA patch bundle number may change with release. Installation as follows:  
-```
+```bash
  unzip p23494985_xxxxxx_Linux-x86-64_1of2.zip
  unzip p23494985_xxxxxx_Linux-x86-64_2of2.zip
  cat p23494985_xxxxxx_Linux-x86-64_1of2.zippart p23494985_xxxxxx_Linux-x86-64_2of2.zippart > GI.zip
@@ -34,7 +34,7 @@ It consist of configuring how many core do you want to be enabled (Only needed i
 ### Deploying Oracle Database Appliance  
 
 You are now ready to deply ODA. Using the chrome or IE browser, enter the following URL:  
-```
+```bash
  https://<ipaddress or hostname>:7093/mgmt/index.html  
  Username: oda-admin  
  Password (default): welcome1  
@@ -49,7 +49,7 @@ In case of mistake, where reployment is needed, the previous configuration can b
 `/opt/oracle/oak/onecmd/cleanup.pl`  
 This will reboot the server.  
 After the reboot, you can confirm that the previous configuration has been erased:  
-```
+```bash
  # odacli describe-appliance  
  Appliance is not configured
 ```
