@@ -4,7 +4,8 @@ title: Oracle Database Appliance Deployment
 subtitle: A complete video demonstration
 image: /img/oracle.png
 share-img: /img/oracle.png
-tag: [Installation, Database] 
+tag: [Installation, Database]
+css: /css/custom.css
 ---
 
 ### Intoduction
@@ -41,7 +42,7 @@ You are now ready to deply ODA. Using the chrome or IE browser, enter the follow
 ```
 The video demonstration of Oracle Database Appliance deployment gives the complete idea of deployment.  
 
-<centre>[![watch](/img/play-button.gif)](https://player.vimeo.com/video/256223442)</centre>
+[![watch](/img/play-button.gif)](https://player.vimeo.com/video/256223442) {:.centre-image}
 <p><a href="https://vimeo.com/256223442">ODA_X6-2S_deployment</a> from <a href="https://vimeo.com/user81321720">linuxmate</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ### Factory Resetting
