@@ -68,7 +68,11 @@ layout: base
       </ul>
 
       {% if page.fb-like %}
-      	{% include fb-like-button.html %}
+      	{% include fb-like.html %}
+      {% endif %}
+
+      {% if page.fb-comments %}
+      	{% include fb-comments.html %}
       {% endif %}
 
       {% if page.comments %}
