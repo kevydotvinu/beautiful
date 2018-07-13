@@ -16,7 +16,7 @@ Apart from Linux, I watch Sherlock Homes BBC series as well as Christopher Nolan
 <h1 id="contact">FAQ</h1>
 <p>You can ask questions in the terminal below:</p>
 </div>
-{% include terminal.html %}
+{% include term.html %}
 
 <!--contactme form-->
 <div id="contactme-section">
