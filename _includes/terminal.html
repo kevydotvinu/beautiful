@@ -1,0 +1,52 @@
+<script src="/js/jquery-latest.js"></script>
+<script src="/js/jquery.terminal.min.js"></script>
+<link href="/css/jquery.terminal.min.css" rel="stylesheet"/>
+<link href="/css/terminal.css" rel="stylesheet"/>
+
+<div class="terminal_window">
+  <header>
+    <div class="red_btn button"></div>
+    <div class="green_btn button"></div>
+    <div class="yellow_btn button"></div>
+  </header>
+  <div id="term_demo"></div>
+</div>
+
+<script>
+
+jQuery(function($, undefined) {
+ $('#term_demo').terminal(function(command) {
+   
+   if (command == 'help'){
+	   this.echo("Who are you?")
+   }
+   if (command == 'Who are you?'){
+	   this.echo("I'm an avid fan of Linux and open-source enthusiast")
+   }
+   if (command == 'Why linuxmate?'){
+	   this.echo("I had one once!")
+   }
+   else {
+     if (command !== '') {
+       try {
+         var result = window.eval(command);
+         if (result !== undefined) {
+           this.echo(new String(result));
+         }
+       } catch(e) {
+         this.error(new String(e));
+       }
+     } else {
+       this.echo('');
+     }
+   }
+ 
+
+ }, {
+ greetings: 'Hi there, Welcome to FAQ. Type help for help.',
+ name: 'kevy',
+ prompt: '[user@linuxmate.ml ~]$ ',
+ color: 'green'
+ });
+});
+</script>

@@ -12,6 +12,12 @@ This blog is not more than a typical Linux blog but here you can find some daily
 
 Apart from Linux, I watch Sherlock Homes BBC series as well as Christopher Nolan movies and read non-fiction. [I am not finished.](/more.md)
 
+<div id="contactme-section">
+<h1 id="contact">FAQ</h1>
+<p>You can ask questions in the terminal below:</p>
+</div>
+{% include terminal.html %}
+
 <!--contactme form-->
 <div id="contactme-section">
 <h1 id="contact">Contact</h1>
