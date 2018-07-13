@@ -17,14 +17,11 @@
 jQuery(function($, undefined) {
  $('#term_demo').terminal(function(command) {
    
-   if (command == 'help'){
-	   this.echo("Who are you?")
-   }
-   if (command == 'Who are you?'){
-	   this.echo("I'm an avid fan of Linux and open-source enthusiast")
-   }
-   if (command == 'Why linuxmate?'){
-	   this.echo("I had one once!")
+   if (command == 'faq'){
+	   this.echo("\nWhy linuxmate?")
+	   this.echo("I had one once!\n")
+	   this.echo("How often do you write new blog post?")
+	   this.echo("Twice in a month\n")
    }
    else {
      if (command !== '') {
@@ -43,7 +40,7 @@ jQuery(function($, undefined) {
  
 
  }, {
- greetings: 'Hi there, Welcome to FAQ. Type help for help.',
+ greetings: 'Hi there, Welcome to FAQ. Please type faq.\n',
  name: 'kevy',
  prompt: '[user@linuxmate.ml ~]$ ',
  color: 'green'

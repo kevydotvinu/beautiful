@@ -14,7 +14,7 @@ Apart from Linux, I watch Sherlock Homes BBC series as well as Christopher Nolan
 
 <div id="contactme-section">
 <h1 id="contact">FAQ</h1>
-<p>You can ask questions in the terminal below:</p>
+<p>Here are some frequently asked questions:</p>
 </div>
 {% include term.html %}
 
