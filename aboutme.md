@@ -12,12 +12,6 @@ This blog is not more than a typical Linux blog but here you can find some daily
 
 Apart from Linux, I watch Sherlock Homes BBC series as well as Christopher Nolan movies and read non-fiction. [I am not finished.](/more.md)
 
-<div id="contactme-section">
-<h1 id="contact">FAQ</h1>
-<p>Here are some frequently asked questions:</p>
-</div>
-{% include term.html %}
-
 <!--contactme form-->
 <div id="contactme-section">
 <h1 id="contact">Contact</h1>
