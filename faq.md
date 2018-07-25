@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: FAQ
+date: 2017-09-18
 subtitle: "Something you'd like to ask"
 image: /img/faq.png
 ---
